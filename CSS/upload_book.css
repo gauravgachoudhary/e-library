@@ -1,0 +1,103 @@
+form input {
+    float: left;
+}
+.upload_n {
+    width: 100%;
+    height: 150px;
+}
+.upload_n p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px;
+}
+.profile_de {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    float: left;
+}
+.profile_de h1 {
+    text-align: center;
+    height: 60px;
+    /* margin: 20px 0px 0px 0px; */
+    line-height: 70px;
+}
+.firstname, .AuthorName, .Edition {
+    width: 40%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 40px 0 0 40px;
+    padding-left: 20px;
+}
+.btnl {
+    width: 25%;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    background: rgba(0, 128, 0, 0.507);
+    border: 3px solid black;
+    border-radius: 18px;
+    margin: 80px 10% 0 0px;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.btnl:hover {
+    background: rgba(0, 128, 0, 0.658);
+    transition: 1s all;
+}
+.book_upload {
+    margin: 0px 0px 0px 10%;
+}
+.book_upload h2 {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 20px;
+    float: left;
+    margin: 40px 0 0 80px;
+    text-align: right;
+}
+.uploadb {
+    margin: 50px 0 0 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.418);
+    text-decoration: none;
+}
+.describtion {
+    width: 20%;
+    height: 120px;
+    outline: none;
+    border-style: none;
+    background: rgba(0, 0, 0, 0.397);
+    border-bottom: 2px solid black;
+    margin: 40px 0 0 40px;
+    padding-left: 20px;
+}
+.category {
+    width: 20%;
+    font-size: 17px;
+    height: 30px;
+    margin: 45px 0 0 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.418);
+    background: #2d9457;
+    border: none;
+    box-shadow: 0px 0px 3px 1px;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+.category:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+    color:black;
+    letter-spacing: 5px;
+}

@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+}
+@font-face {
+    font-family: font1;
+    src: url(../FONTS/OldeEnglish.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../FONTS/ciacode39_m.ttf);
+}
+body {
+    margin: 0;
+    /* max-width: 1400px; */
+    min-width: 1200px;
+    background: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    /* background-image: url(../IMAGE/b1.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-attachment: scroll; */
+    background-repeat: no-repeat;
+}
+.login {
+    width: 40%;
+    height: 350px;
+    /* border: 2px solid black; */
+    margin: 20px 07% 70px 0;
+    /* transform: translateX(-50%); */
+    background: rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    box-shadow: 0px 0px 20px;
+}
+.login_n {
+    width: 100%;
+    height: 150px;
+}
+.login_n p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px;
+}
+.login a {
+    text-decoration: none;
+    color: black;
+}
+.login p {
+    float: left;
+    margin: 50px 0px 0 15%;
+    font-size: 17px;
+    width: 30%;
+}
+.username {
+    width: 60%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 30px 0 0 20px;
+    float: left;
+}
+.login img {
+    width: 30px;
+    height: 30px;
+    margin: 34px 0px 0px 50px;
+    float: left;
+    border-radius: 50%;
+}
+.password {
+    width: 60%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 30px 0 0 20px;
+    float: left;
+}
+.btnl {
+    width: 40%;
+    height: 40px;
+    font-size:16px;
+    font-weight:700;
+    background: rgba(219, 55, 77, 0.72);
+    border: 2px solid black;
+    border-radius: 30px/50px;
+    margin: 50px 0 0 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.btnl:hover {
+    background: rgba(219, 55, 77);
+    transition: 1s all;
+    box-shadow:inset 3px 0px 3px; 
+}.sign {
+    width: 40%;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin: 0px 7% 0 0px;
+    /* transform: translateX(-50%); */
+    background: rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
+    float: right;
+    box-shadow: 0px 0px 20px;
+}
+.sign img {
+    width: 30px;
+    height: 30px;
+    margin: 34px 0px 0px 50px;
+    float: left;
+    border-radius: 50%;
+}
+.firstname {
+    width: 35%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 30px 0 0 20px;
+}
+.lastname {
+    width: 35%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 30px 0 0 0px;
+}
+.email {
+    width: 71%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 30px 0 0 20px;    
+}
+.number {
+    width: 71%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 30px 0 0 20px;
+}
+.loginsign_u {
+    padding: 200px 0px;
+}
+.loginsign_u a {
+    text-decoration: none;
+    color: black;
+}
+.login_u h2 {
+    float: left;
+    height: 25px;
+    background: rgba(223, 7, 48);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 10px 10px 30px;
+    margin: 20px 0px 0px -10px;
+    z-index: -2;
+    cursor: pointer;
+}
+.login_uimg {
+    float: left;
+    border: 10px solid rgba(223, 7, 48);
+    border-radius: 52%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+    background: rgba(223, 7, 48);
+}
+.login_uimg img {
+    margin: -5px 0px 0px -5px;
+}
+.login_u {
+    float: left;
+    width: 25%;
+    margin: 0px 0px 0px 17%;
+}
+.login_u:hover .login_uimg {
+    border-color: rgb(211, 7, 44);
+    transition: .5s;
+    background: rgb(211, 7, 44);
+}
+.login_u:hover h2 {
+    background: rgb(211, 7, 44);
+    color: white;
+    transition: .5s;
+}
+
+::-webkit-input-placeholder {
+    color:black;
+    letter-spacing: 5px;
+}

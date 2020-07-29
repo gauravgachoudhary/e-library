@@ -1,0 +1,243 @@
+.profile {
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.479);
+}
+.profile p {
+    width: 15%;
+    background: rgba(0, 128, 0, 0.384);
+    font-size: 18px;
+    margin: 0 0 0 12%;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    font-family: cursive;
+    border-radius: 30px/20px;
+    box-shadow: 0px 0px 10px 0px;
+}
+.profile a {
+    text-decoration: none;
+    color: black;
+}
+.profile h2 {
+    width: 20%;
+    background: rgba(0, 128, 0, 0.384);
+    font-size: 18px;
+    margin: 65px 0 0 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    border-radius: 20px/40px;
+    text-align: center;
+    border: 2px solid black;
+}
+.profile h2:hover {
+    background: rgba(0, 128, 0, 0.658);
+    transition: .5s all;
+    cursor: pointer;
+}
+.profile_de {
+    width: 100%;
+    height: 400px;
+    /* margin: 20px 0 0 1px; */
+    background: rgba(0, 0, 0, 0.479);
+    /* border-radius: 20px; */
+    float: left;
+}
+.profile_de h1 {
+    text-align: center;
+    height: 60px;
+    /* margin: 20px 0px 0px 0px; */
+    line-height: 70px;
+}
+.profile_info {
+    width: 100%;
+    height: 300px;
+    margin: 40px 0 0 0;
+    float: left;
+}
+.profile_info h2 {
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 20px;
+    float: left;
+    margin: 40px 0 0 5%;
+    text-align: right;
+}
+.profile_info p {
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    float: left;
+    font-size: 18px;
+    margin: 40px 0 0 0px;
+    background: rgba(255, 255, 255, 0.212);
+    border-radius: 20px;
+}
+.profile_update h2 {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 20px;
+    float: left;
+    margin: 40px 0 0 80px;
+    text-align: right;
+}
+form input {
+    float: left;
+}
+.firstname {
+    width: 20%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 40px 0 0 40px;
+    padding-left: 20px;
+}
+.lastname {
+    width: 20%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 40px 0 0 10px;
+    padding-left: 20px;
+}
+.email {
+    width: 45%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 40px 0 0 40px;    
+    padding-left: 20px;
+}
+.number {
+    width: 30%;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    background: none;
+    border-bottom: 3px solid black;
+    margin: 40px 0 0 40px;
+    padding-left: 20px;
+}
+.btnl {
+    width: 25%;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    background: rgba(0, 128, 0, 0.507);
+    border: 3px solid black;
+    border-radius: 18px;
+    margin: 45px 0 0 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.btnl:hover {
+    background: rgba(0, 128, 0, 0.658);
+    transition: 1s all;
+}
+.upload {
+    margin: -50px 0 0 50px;
+    width: 220px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.418);
+    text-decoration: none;
+    visibility: hidden;
+}
+.book_upload {
+    width: 100%;
+    height: auto;
+}
+.book_upload h2 {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 20px;
+    float: left;
+    margin: 40px 0 0 80px;
+    text-align: right;
+}
+.profile_update2 {
+    margin: 40px 0 0 0px;
+}
+.btn1 {
+    margin: 0px 0 0 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.418);
+    text-decoration: none;
+    width: 90px;
+    cursor: pointer;
+}
+.profile_user {
+    width: 100%;
+    padding: 0px 0px;
+}
+.profile_user p a
+{
+    text-decoration: none;
+    color:black;
+}
+.profile_userimg {
+    width: 150px;
+    height: 155px;
+    border-radius: 51%/45%;
+    border: 2px solid black;
+    margin: 100px 0 0 50%;
+    /* float: left; */
+    transform: translateX(-50%);
+    /* position: absolute; */
+    overflow: hidden;
+}
+.profile_user p {
+    /* float: left; */
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-family: monospace;
+}
+.profile_edit {
+    width: 100%;
+    height: 600px;
+    /* margin: 20px 0 0 1px; */
+    background: rgba(0, 0, 0, 0.479);
+    /* border-radius: 20px; */
+    /* float: left;*/
+}
+.profile_edit h1 {
+    text-align: center;
+    /* margin: 20px 0px 0px 0px; */
+    line-height: 50px;
+    height: 50px;
+}
+.upload1 {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 120px 0 0 0;
+    position: absolute;
+    /* transform: translateX(-50%); */
+    background: #00000096;
+    color: white;
+    text-align: center;
+}
+.profile_user img {
+    width: 150px;
+    height: 155px;
+    position: absolute;
+}
+.profile_update {
+    width: 60%;
+    margin: 20px 0px 0px 50%;
+    transform: translateX(-50%);
+}
+::-webkit-input-placeholder {
+    color:black;
+    letter-spacing: 5px;
+}

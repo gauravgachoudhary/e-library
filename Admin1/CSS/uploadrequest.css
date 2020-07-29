@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+.admin_name{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    background: rgb(49, 43, 43);
+    padding: 15px;
+    color: wheat;
+}
+.head {
+    padding: 30px 0px 10px 25px;
+}
+body{
+    margin: 0;
+    min-width: 1200px;
+    background: white;
+    background-repeat: no-repeat;
+}
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 90%;
+    margin: 40px 0px 0px 5%;
+}
+tr:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.274);
+}
+tr:nth-child(1) {
+    background: black;
+    color: wheat;
+}
+tr, th, td {
+    padding: 10px;
+}
+tr th:nth-child(1) {
+    border-top-left-radius: 20px;
+}
+tr th:last-child {
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+}
+@font-face {
+    font-family: font1;
+    src: url(../FONTS/OldeEnglish.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../FONTS/ciacode39_m.ttf);
+}
+body {
+    margin: 0;
+    /* max-width: 1400px; */
+    min-width: 1200px;
+    background: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    /* background-image: url(../IMAGE/b1.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-attachment: scroll; */
+    background-repeat: no-repeat;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    background: black;
+    /* background-position: center; */
+    /* background-size: cover; */
+    position: relative;
+    /* border-radius: 0px; */
+    /* box-shadow: 0px 0px 15px; */
+}
+.header_name {
+    margin: 0px;
+}
+.header_name h1:hover {
+    color: blue;
+    cursor: pointer;
+    transition: .5s;
+}
+.header_name h1 {
+    margin: 0px 0 0 70px;
+    height: 80px;
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-variant-caps: all-petite-caps;
+    font-family: monospace;
+}
+/* .nav {
+    height: 55px;
+    width: 98%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.514);
+    margin: 5px 0 0 1%;
+    position: absolute;
+} */
+.nav li {
+    float: right;
+    font-size: 15px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    list-style: none;
+    margin: 23px 50px 0 0;
+}
+.nav li:hover {
+    color: #e8dddd;
+}
+.c_user {
+    width: 100%;
+    background: url(../IMAGE/b1.jpg), url(image/overlay.png);
+    padding: 100px 0px;
+    background-size: cover;
+    background-position: center;
+}
+.c_user p a
+{
+    text-decoration: none;
+    color:black;
+}
+.c_user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 51%;
+    border: 2px solid black;
+    margin: 10px 0 0 50%;
+    /* float: left; */
+    transform: translateX(-50%);
+}
+.c_user p {
+    /* float: left; */
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.c_right {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0px;
+    border-radius: 20px;
+}
+.read
+{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    flex-flow: wrap row;
+
+}
+.book_detail {
+    width: 47%;
+    margin: 0px 0 20px 2%;
+    background: #00000021;
+    height: 300px;
+    overflow: hidden;
+}
+.book_detail:nth-last-child(2) {
+    border-bottom-left-radius: 20px;
+}
+.book_detail:nth-last-child(1) {
+    border-bottom-right-radius: 20px;
+}
+.book_detail:nth-child(2) {
+    border-top-right-radius: 20px;
+}
+.book_detail:nth-child(1) {
+    border-top-left-radius: 20px;
+}
+.c_right a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border: 2px solid black;
+    float: left;
+    margin: 20px 0 0 10px;
+}
+.container_line {
+    margin: 20px 0 0 20px;
+    float: left;
+    width: 47%;
+}
+.container img {
+    width: 100%;
+    height: 100%;
+}
+.pages
+{
+    height: 60px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px 0px 10px 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+}    
+.pages a {
+    padding: 10px;
+    height: 20px;
+    background: black;
+    color: wheat;
+    text-decoration: none;
+    margin: 10px 0px 10px 10px;
+    width: 20px;
+    text-align: center;
+    border-radius: 20px;
+}  
+.pages a p {
+    margin: -5px 0px 0px 0px;
+    font-size: 25px;
+}
+.content {
+    background: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+}
+.search {
+    width: 40%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 40px 0px 0px 30%;
+    border: none;
+    background: white;
+    outline: none;
+    box-shadow: inset 0px 0px 5px 2px;
+    border-radius: 20px;
+}
+.read p {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 0px;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}

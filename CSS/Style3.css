@@ -1,0 +1,83 @@
+@media screen and (max-width:1000px) {
+    body{
+        min-width:100%;
+    }
+    .header{
+        height:50px;
+    }
+    .header_name h1 {
+        margin:0px;
+        line-height:50px;
+        height:50px;
+    }
+    .nav li {
+        padding:0px;
+        height:50px;
+        line-height:50px;
+        margin:5px;
+    }
+    .c_user {
+        padding:0px;
+    }
+    .read {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        display: block;
+        justify-content: start;
+        flex-flow: wrap row;
+    }
+    .book_detail {
+    width: 92%;
+    margin: 0px 0 20px 4%;
+    background: #00000021;
+    height: 200px;
+    overflow: hidden;
+    }
+    .book_detail:nth-child(1) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    }
+    .book_detail:nth-child(2) {
+    border-radius: 0px;
+    }
+    .book_detail:nth-last-child(1) {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    }
+    .book_detail:nth-last-child(2) {
+    border-radius: 0px;
+    }
+    .container {
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid black;
+    float: left;
+    margin: 20px 0 0 10px;
+    }
+    .pages {
+    height: 30px;
+    width: 92%;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px 0px 10px 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+    }
+    .pages a {
+    padding: 0px;
+    height: 24px;
+    background: black;
+    color: wheat;
+    text-decoration: none;
+    margin: 3px 0px 0px 10px;
+    width: 24px;
+    text-align: center;
+    border-radius: 20px;
+    }
+    .pages a p {
+    margin: 0px 0px 0px 2px;
+    font-size: 24px;
+    }
+}
